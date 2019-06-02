@@ -1,0 +1,161 @@
+<!-- by PRESTON and EMILIO -->
+<!-- where the user can register for an account -->
+
+
+
+<!DOCTYPE html>
+{% load staticfiles %}
+<html lang="en">
+  <main class="wrapperlogin">
+    <head>
+      <style>
+      .error {
+        color: red;
+      }
+      </style>
+
+      <title>ecoHero | Register</title>
+      <link rel="stylesheet" href="{% static 'css/main.css' %}">
+      <!--link rel="stylesheet" href="{% static 'css/loginpage.css' %}"-->
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+      <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">
+      <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+
+      <script>
+  	  window.dataLayer = window.dataLayer || [];
+ 	  function gtag(){dataLayer.push(arguments);}
+   	  gtag('js', new Date());
+  	  gtag('config', 'UA-118983006-1');
+      </script>
+
+    </head>
+
+
+    <!-- Demo Banner -->
+    <div class="row bg-info text-light" style="">
+      <div class="col-lg-12 text-center">SFSU Software Engineering Final Project, Spring 2018. For Demonstration Only</div>
+    </div>
+    <!-- navBar -->
+    <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light mt-0">
+      <a class="navbar-brand" href="index2" style="font-size: 36px;">ecoHero</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav mr-auto">
+        <li class="nav-item">
+          <a class="nav-link m-2" href="about">About<span class="sr-only">(current)</span></a>
+        </li>
+        <!--
+        <li class="nav-item active">
+          <a class="nav-link" href="searchresults2">Browse <span class="sr-only">(current)</span></a>
+        </li>
+        -->
+        <li class="nav-item m-2">
+          <a class="nav-link" href="submit">Post a Hazard<span class="sr-only">(current)</span></a>
+        </li>
+        <!--
+        <li class="nav-item">
+          <a class="nav-link" href="login">Log In</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="register">Sign Up</a>
+        </li>
+        -->
+      </ul>
+
+      <form class="form-inline my-2 my-lg-0" style="width: 75%; justify-content: left;" name="form1" method="POST" action="searchresults2"> {% csrf_token %}
+
+        <select name="category" class="form-control mr-1">
+        <option>All</option>
+        <option value = "Chemical">Chemical</option>
+        <option value = "Physical">Physical</option>
+        <option value = "Biological">Biological</option>
+        </select>
+
+        <input class="form-control mr-sm-2" style="width: 50%;"type="text" name="search" placeholder="Search for hazards" aria-label="Search">
+        <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+
+      </form>
+    </div>
+   </nav>
+
+<!-- Include the above in your HEAD tag ---------->
+
+<!-- All the files that are required -->
+<link rel="stylesheet" href="//maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css">
+<link href='http://fonts.googleapis.com/css?family=Varela+Round' rel='stylesheet' type='text/css'>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.13.1/jquery.validate.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1" />
+
+<!-- Where all the magic happens -->
+<!-- REGISTRATION FORM -->
+<section class="section parallax bg1">
+<div class="text-center" style="padding:50px 0;" >
+	<div style="color:black;  font-size: 2.5rem;" class="logo">Register</div>
+	<!-- Main Form -->
+	<div class="login-form-1">
+		<form id="register-form" class="text-left" action="register2" method="POST"> {% csrf_token %}
+			<div class="login-form-main-message"></div>
+			<div class="main-login-form">
+				<div class="login-group">
+
+					<div class="form-group my-5">
+						<label for="reg_username" class="sr-only">username</label>
+						<input required type="text" class="form-control" id="reg_username" name="reg_username" placeholder="Enter username">
+					</div>
+
+					<div class="form-group my-5">
+						<label for="reg_password" class="sr-only">Password</label>
+						<input required type="password" class="form-control" id="reg_password" name="reg_password" placeholder="Enter password">
+					</div>
+
+					<div class="form-group my-5">
+						<label for="reg_password_confirm" class="sr-only">Password Confirm</label>
+						<input required type="password" class="form-control" id="reg_password_confirm" name="reg_password_confirm" placeholder="Confirm password">
+					</div>
+          <!--
+					<div class="form-group">
+						<label for="reg_email" class="sr-only">Email</label>
+						<input type="text" class="form-control" id="reg_email" name="reg_email" placeholder="email">
+					</div>
+					<div class="form-group">
+						<label for="reg_fullname" class="sr-only">Full Name</label>
+						<input type="text" class="form-control" id="reg_fullname" name="reg_fullname" placeholder="full name">
+					</div>
+          -->
+					<div class="form-group login-group-checkbox">
+            <div class="form-check">
+  						<input type="checkbox" class="form-check-input" id="reg_agree" name="reg_agree">
+              <label for="reg_agree" class="form-check-label">I agree with <a href="#"> the terms & services</a></label>
+            </div>
+
+					</div>
+            <button type="submit" class="btn btn-outline"> Submit </i></button>
+				</div>
+
+			</div>
+			<div class="etc-login-form">
+				<p>Already have an account? <a href="login">Login here</a></p>
+			</div>
+		</form>
+	</div>
+
+	<!-- end:Main Form -->
+  <br/>
+  <br/>
+
+  <div class="error">
+    {{match}}
+  </div>
+
+</div>
+</section>
+<div id="services" class="section static1">
+  <div class="container">
+    <p class="text-center" style="color: green;">
+      SFSU CSC 648.01 Spring 2018 <br /> Team 02 <br /> © Copyright 2018. All rights reserved.
+    </p>
+  </div>
+</div>

@@ -1,0 +1,144 @@
+<!-- by EMILIO and SAHAS -->
+<!-- detailed page for a hazard post -->
+
+
+
+
+
+{% load staticfiles %}
+<head>
+  <style>
+
+  body { background: #FDFDFD !important; }
+
+
+  .search-bar {
+      text-align: center;
+      margin: auto;
+      padding: 10px;
+      width:50%;
+      letter-spacing: 3px;
+      background: white;
+      box-shadow: 0px 10px 18px #888888;
+    }
+
+  .post {
+    margin-top: 10px;
+    overflow: auto;
+  }
+
+  .title {
+  text-align: center;
+  margin-bottom: 20px;
+  margin-left: 25%;
+  padding: 10px;
+  width:50%;
+  font-size: 30px;
+  font-family: Sans-serif;
+  }
+
+.title a {
+    text-decoration: none;
+    color: #000000;
+  }
+
+.form-control{
+  display: inline!important;
+}
+
+
+
+
+  </style>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118983006-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-118983006-1');
+  </script>
+</head>
+
+<!-- Demo Banner -->
+<div class="row bg-info text-light" style="">
+  <div class="col-lg-12 text-center">SFSU Software Engineering Final Project, Spring 2018. For Demonstration Only</div>
+</div>
+
+
+<div class = "title">
+  <a href="/index2">ecoHero</a>
+  <link rel="stylesheet" href="{% static 'css/main.css' %}">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+</div>
+
+
+<div class="search-bar container-fluid">
+  <h3 class="searchtitle">Search for Hazards</h3>
+  <div class="SEARCHINGBAR col-lg-12">
+  <form name="form1" method="POST" action="/searchresults2"> {% csrf_token %}
+
+    <select name="category" class="form-control" style="max-width: 7%;">
+      <option>All</option>
+
+      {% if category == 'Chemical' %}
+        <option value = "Chemical" selected="selected"> Chemical </option>
+      {% else %}
+        <option value = "Chemical">Chemical</option>
+      {% endif %}
+
+      {% if category == 'Physical' %}
+        <option value = "Physical" selected="selected"> Physical </option>
+      {% else %}
+        <option value = "Psysical"> Physical </option>
+      {% endif %}
+
+      {% if category == 'Biological' %}
+        <option value = "Biological" selected="selected"> Biological </option>
+      {% else %}
+        <option value = "Biological"> Biological </option>
+      {% endif %}
+    </select>
+
+    <input class=" form-control col-lg-8" type="text" name="search"  size="40" maxlength="50" value="{{input}}"  style="max-width: 20%" />
+    <input class="btn btn-outline-success" type="submit" name="Submit" value="Search"/>
+
+  </form>
+</div>
+
+<div class = "container">
+  <div class="row" style="justify-content: center;">
+  <div class="card mt-5" style="width: 64rem;">
+    <div class="card-header">
+      <h5 class="card-title">{{ post.title }}</h5>
+    </div>
+
+    <div class="card-body">
+      <p class="card-text">{{ post.description }}</p>
+      <p class="card-text"><small class="text-muted"> by {{ post.user }}</small></p>
+      <p class="card-text"><small class="text-muted"> {{ post.location }} | {{ post.time }}</small></p>
+      <p class="card-text"><small class="text-muted"> post no. {{ post.post_id }} | {{ post.type }}</small></p>
+    </div>
+
+
+    {% if post.image %}
+    <img class="card-img-bottom" src="../../media/post_imgs/{{post.post_id}}.jpg">
+    {% else %}
+      <img class="card-img-bottom" src="../../media/post_imgs/default.jpg">
+    {% endif %}
+  </div>
+
+      <div class = "postLoc">
+      <!--<p> {{ p.location }} </p>-->
+      <a href="https://www.google.com/maps/search/{{post.location}}" target="_blank">
+      <img src="https://maps.googleapis.com/maps/api/staticmap?center={{post.location}}
+  &markers=color:blue%7Clabel:S%7C{{post.location}}&markers=color:green%7Clabel:G%7C{{post.location}}
+  &markers=color:red%7Clabel:C%7C{{post.location}}
+  &key=AIzaSyCPmX6KMD7IfYwrx6SAK_HO9QrDLeOWHYg&size=800x500&&maptype=roadmap&amp;%20sensor=false"
+         alt="Your map"/>
+      </a>
+      </div>
+    </div>
+    </div>

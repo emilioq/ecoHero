@@ -1,0 +1,165 @@
+<head>
+  <style>
+
+  body {background-color: #FEFDE3;}
+
+  .title {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    padding: 10px;
+    width:50%;
+    font-size: 30px;
+    font-family: Sans-serif;
+  }
+
+  .title a {
+      text-decoration: none;
+      color: #000000;
+  }
+
+  .search-bar {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    width:50%;
+    letter-spacing: 3px;
+    background: #E8E7DE;
+  }
+
+  .sortby {
+    margin-top:10px;
+    text-align: center;
+  }
+
+  .results {
+    font-style: italic;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .card {
+    margin: 20px;
+  }
+
+  .row {
+    justify-content: center;
+  }
+
+  .container {
+    background: #E8E7DE;
+  }
+
+
+  </style>
+
+  <title>ecoHero | Search Results</title>
+
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+
+</head>
+
+<div class = "title">
+  <a href="index2">ecoHero</a>
+</div>
+
+
+<!-- Search Bar -->
+<div class="search-bar">
+  <p>Search for Hazards</p>
+  <form name="form1" method="POST" action="searchresults2"> {% csrf_token %}
+
+    <select name="category">
+      <option>All</option>
+
+      {% if category == 'Chemical' %}
+        <option value = "Chemical" selected="selected"> Chemical </option>
+      {% else %}
+        <option value = "Chemical">Chemical</option>
+      {% endif %}
+
+      {% if category == 'Physical' %}
+        <option value = "Physical" selected="selected"> Physical </option>
+      {% else %}
+        <option value = "Psysical"> Physical </option>
+      {% endif %}
+
+      {% if category == 'Biological' %}
+        <option value = "Biological" selected="selected"> Biological </option>
+      {% else %}
+        <option value = "Biological"> Biological </option>
+      {% endif %}
+    </select>
+
+    <input type="text" name="search"  size="40" maxlength="50" value="{{input}}"/>
+    <input type="submit" name="Submit" value="Search"/>
+
+    <div class="sortby">
+      <select name="sort" onchange="this.form.submit()">
+        <option>Sort by</option>
+
+        {% if sort == 'newest' %}
+          <option value = "newest" selected="selected">Newest first</option>
+        {% else %}
+          <option value = "newest">Newest first</option>
+        {% endif %}
+
+        {% if sort == 'oldest' %}
+          <option value = "oldest" selected="selected">Oldest first</option>
+        {% else %}
+          <option value = "oldest">Oldest first</option>
+        {% endif %}
+      </select>
+    </div>
+
+  </form>
+</div>
+
+
+<!-- Hazard Cards -->
+{% if posts %}
+  <div class="results">
+    {{ posts|length }} hazards found:
+  </div>
+
+  <div class="container mt-4">
+    <div class="row">
+
+    {% for p in posts %}
+
+      <div class="card bg-light mb-3" style="width: 18rem; height: 30rem;">
+        <a href="post/{{p.post_id}}" target="_blank">
+          {% if p.image %}
+            <img class="card-img-top" src="{{p.thumbnail.url}}" alt="Card image cap" >
+          {% else %}
+            <img class="card-img-top" src="../../media/post_imgs/default.jpg" alt="Card image cap">
+          {% endif %}
+        </a>
+
+        <div class="card-body">
+          <a href="post/{{p.post_id}}" target="_blank">
+            <h5 class="card-title">{{ p.title }}</h5>
+          </a>
+
+          <p class="card-text">{{ p.description }}</p>
+        </div>
+
+        <div class="card-footer">
+          <p class="card-text"><small class="text-muted">{{ p.time }}</small></p>
+        </div>
+      </div>
+
+    {% endfor %}
+
+    </div>
+  </div>
+
+
+{% else %}
+  <div class="results">
+    There are no hazards with '{{ input }}' found.
+  </div>
+{% endif %}

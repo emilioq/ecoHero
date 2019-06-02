@@ -1,0 +1,287 @@
+<!-- by SAHAS and EMILIO -->
+<!-- Where the user submits a hazard and uploads image -->
+{% load staticfiles %}
+<head>
+  <style>
+
+  .title {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    padding: 10px;
+    width:50%;
+    font-size: 30px;
+    font-family: Sans-serif;
+  }
+
+  .title a {
+      text-decoration: none;
+      color: #000000;
+  }
+
+  .error {
+    margin: 10px;
+    color: red;
+  }
+
+  .matchGreen {
+    margin: 10px;
+    color: green;
+  }
+
+
+  </style>
+</head>
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <title>Hazard form </title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118983006-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-118983006-1');
+    </script>
+    <!--link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Montserrat"-->
+  </head>
+
+  <link rel="stylesheet" href="http://ajax.googleapis.com/ajax/libs/jqueryui/1/themes/base/jquery-ui.css">
+  <script class="form-group" src="http://ajax.googleapis.com/ajax/libs/jquery/1/jquery.min.js"></script>
+  <script class="form-group" src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.8.0/jquery-ui.min.js"></script>
+
+  <script>
+  jQuery(function($){
+  var fileDiv = document.getElementById("upload");
+  var fileInput = document.getElementById("upload-image");
+  console.log(fileInput);
+  fileInput.addEventListener("change",function(e){
+    var files = this.files
+    showThumbnail(files)
+  },false)
+
+  fileDiv.addEventListener("click",function(e){
+    $(fileInput).show().focus().click().hide();
+    e.preventDefault();
+  },false)
+
+  fileDiv.addEventListener("dragenter",function(e){
+    e.stopPropagation();
+    e.preventDefault();
+  },false);
+
+  fileDiv.addEventListener("dragover",function(e){
+    e.stopPropagation();
+    e.preventDefault();
+  },false);
+
+  fileDiv.addEventListener("drop",function(e){
+    e.stopPropagation();
+    e.preventDefault();
+
+    var dt = e.dataTransfer;
+    var files = dt.files;
+
+    showThumbnail(files)
+  },false);
+
+  function showThumbnail(files){
+    for(var i=0;i<files.length;i++){
+      var file = files[i]
+      var imageType = /image.*/
+      if(!file.type.match(imageType)){
+        console.log("Not an Image");
+        continue;
+      }
+
+      var image = document.createElement("img");
+      // image.classList.add("")
+      var thumbnail = document.getElementById("thumbnail");
+      image.file = file;
+      thumbnail.appendChild(image)
+
+      var reader = new FileReader()
+      reader.onload = (function(aImg){
+        return function(e){
+          aImg.src = e.target.result;
+        };
+      }(image))
+      var ret = reader.readAsDataURL(file);
+      var canvas = document.createElement("canvas");
+      ctx = canvas.getContext("2d");
+      image.onload= function(){
+        ctx.drawImage(image,100,100)
+      }
+    }
+  }
+            });
+  </script>
+
+  <!-- Demo Banner -->
+  <div class="row bg-info text-light" style="">
+    <div class="col-lg-12 text-center">SFSU Software Engineering Final Project, Spring 2018. For Demonstration Only</div>
+  </div>
+  <!-- navBar -->
+  <nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light mt-0">
+    <a class="navbar-brand" href="index2" style="font-size: 36px;">ecoHero</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+  <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item">
+        <a class="nav-link m-2" href="about">About<span class="sr-only">(current)</span></a>
+      </li>
+      <!--
+      <li class="nav-item active">
+        <a class="nav-link" href="searchresults2">Browse <span class="sr-only">(current)</span></a>
+      </li>
+      -->
+      <li class="nav-item active m-2">
+        <a class="nav-link" href="submit">Post a Hazard<span class="sr-only">(current)</span></a>
+      </li>
+      <!--
+      <li class="nav-item">
+        <a class="nav-link" href="login">Log In</a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="register">Sign Up</a>
+      </li>
+      -->
+    </ul>
+
+    <form class="form-inline my-2 my-lg-0" style="width: 75%; justify-content: left;" name="form1" method="POST" action="searchresults2"> {% csrf_token %}
+
+      <select name="category" class="form-control mr-1">
+      <option>All</option>
+      <option value = "Chemical">Chemical</option>
+      <option value = "Physical">Physical</option>
+      <option value = "Biological">Biological</option>
+      </select>
+
+      <input class="form-control mr-sm-2" style="width: 50%;"type="text" name="search" placeholder="Search for hazards" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+
+
+    </form>
+  </div>
+ </nav>
+
+
+  <!-- Hazard Form -->
+  <body>
+    <div class = "container mt-3">
+    <div class = "row">
+      <div class = "col-xs-12">
+        <h2>Hazard Information</h2>
+
+        <form action="submit2" method="POST" class="form-horizontal" enctype="multipart/form-data"> {% csrf_token %}
+
+          <div class="form-group">
+            <label for="title" class="col-sm-2 control-label">Title</label>
+            <div class="col-sm-10">
+              <input required type="text" name="title" class="form-control" id="title" value="{{title}}"/>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="description" class="col-sm-2 control-label">Description</label>
+            <div class="col-sm-10">
+              <input type="text" name="description" class="form-control" id="description" value="{{description}}" />
+          </div>
+          </div>
+
+          <div class="form-group">
+            <label for="text" class="col-sm-2 control-label">Location</label>
+            <div class="col-sm-10">
+              <input required type="text" name="location" class="form-control" id="location" value="{{location}}"/>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="file-upload"class="col-sm-2 control-label">Category</label>
+            <div class="col-sm-10">
+              <select name="category" class="form-control">
+                <option>None</option>
+                <option value = "CHEMICAL">Chemical</option>
+                <option value = "PHYSICAL">Physical</option>
+                <option value = "BIOLOGICAL">Biological</option>
+              </select>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="file-upload"class="col-sm-2 control-label">Image</label>
+            <div class="col-sm-10">
+              <input type="file" name="image" id="upload-image" />
+            </div>
+          </div>
+
+          <div class="error">
+            {{match}}
+          </div>
+
+          <div class="matchGreen">
+            {{matchGreen}}
+          </div>
+
+          <!-- Register Form -->
+          {% if guest == 'true' %}
+          <h2>Register Information</h2>
+
+          <div class="form-group">
+            <label for="username" class="col-sm-2 control-label">Username</label>
+            <div class="col-sm-10">
+              <input type="text" name="username" class="form-control" value="{{username}}"/>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="password" class="col-sm-2 control-label">Password</label>
+            <div class="col-sm-10">
+              <input type="password" name="password" class="form-control" value="{{password}}"/>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="confpassword" class="col-sm-2 control-label">Confirm Password</label>
+            <div class="col-sm-10">
+              <input type="password" name="confpassword" class="form-control" value="{{confpassword}}"/>
+            </div>
+          </div>
+
+          <div class="error">
+            {{match2}}
+          </div>
+
+          {% endif %}
+
+          <div class="form-group">
+            <div class="col-sm-10 col-sm-push-2">
+              <input type="submit" id="submit" class="btn btn-default"/>
+              <div id="thumbnail"></div>
+            </div>
+          </div>
+
+
+        </form>
+      </div>
+    </div>
+  </div>
+
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  </body>
+
+
+</html>

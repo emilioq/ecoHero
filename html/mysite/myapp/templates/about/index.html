@@ -1,0 +1,208 @@
+{% load static %}
+<!DOCTYPE html>
+<html>
+  <head>
+
+    <meta charset+"utf-8"/>
+    <title> CSC 648 Team 02 </title>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118983006-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-118983006-1');
+    </script>
+
+    <style>
+    body {
+        font: 20px Montserrat, sans-serif;
+        line-height: 1.8;
+        color: #f5f6f7;
+    }
+
+    p {font-size: 16px;}
+    .margin {margin-bottom: 45px;}
+    .bg-1 {
+        background-color: #1abc9c; /* Green */
+        color: #ffffff;
+    }
+    .bg-2 {
+        background-color: #237fb7; /* Dark Blue */
+        color: #ffffff;
+    }
+    .bg-3 {
+        background-color: #ffffff; /* White */
+        color: #555555;
+    }
+    .bg-4 {
+        background-color: #2f2f2f; /* Black Gray */
+        color: #fff;
+    }
+    .container-info {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .container-heading {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .HEADING{
+      font-size: 75px;
+      font: Montserrat, sans-serif;
+    }
+    .navbar {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        border: 0;
+        border-radius: 0;
+        margin-bottom: 0;
+        font-size: 12px;
+        letter-spacing: 5px;
+    }
+    .navbar-nav  li a:hover {
+        color: #1abc9c !important;
+    }
+    p.description {
+      padding: .5cm 7cm;
+    }
+    </style>
+  </head>
+
+  <body style="background-color: #f2f2f2;">
+    <!--
+    <h1>SFSU CSC 648 Section 1 </h1>
+    <h1><b>TEAM 02</b></h1>
+
+    <p>My first paragraph.</p>
+    -->
+
+    <!-- Demo Banner -->
+    <div class="row bg-info text-light" style="">
+      <div class="col-lg-12 text-center">SFSU Software Engineering Final Project, Spring 2018. For Demonstration Only</div>
+    </div>
+    <!-- Navbar -->
+    <nav class="navbar navbar-default">
+      <div class="container">
+        <div class="navbar-header">
+          <a class="navbar-brand" href="index2">Back to  <b> ecoHero </b> </a>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Second Container -->
+    <div class="container-info bg-2 text-center">
+      <h3 class="margin">What is this?</h3>
+      <p class="description">This is a project for CSC 648 at San Francisco State University. This site will be used for reporting environmental hazards
+      in your community, acting on posted hazards, and moderating posts in your community.</p>
+    </div>
+
+    <!-- MEMBER SECTIONS -->
+
+    <div class="container-heading text-center">
+      <h3 class="HEADING" style="color: black;"><b>The Team</b></h3>
+    </div>
+    <div class="container">
+
+      <div class="row">
+
+        <div class="col-lg-4">
+        </div>
+
+        <!-- Andrew Wong -->
+        <div class="col-lg-4" style="text-align: center; margin-bottom: 20px;">
+          <a href="AboutAndrew" style="color: black;">
+            <img class="img-circle" src="{% static "/images/AndrewWong.jpg" %}" alt="title" width="300" height="300">
+          <div class="col-lg-12">
+            <h2> <b>Andrew Wong</b> </h2>
+            <p>Team Lead</p>
+            </a>
+          </div>
+        </div>
+
+        <div class="col-lg-4">
+        </div>
+      </div>
+
+      <div class="row">
+        <!-- Connor Aguilera -->
+        <div class="col-lg-4" style="text-align: center; margin-bottom: 20px;">
+          <a href="AboutConnor" style="color: black">
+          <img class="img-circle" src="{% static "/images/ConnorAguilera.jpg" %}" alt="title" width="300" height="300">
+          <div class="col-lg-12">
+            <h2> <b>Connor Aguilera</b> </h2>
+            <p>Front-End Lead</p>
+            </a>
+          </div>
+        </div>
+
+        <!-- Sahas Arora -->
+        <div class="col-lg-4" style="text-align: center; margin-bottom: 20px;">
+          <a href="AboutSahas" style="color: black">
+          <img class="img-circle" src="{% static "/images/SahasA.png" %}" alt="title" width="300" height="300">
+          <div class="col-lg-12">
+            <h2> <b>Sahas Arora</b> </h2>
+            <p>Front-End Developer</p>
+            </a>
+          </div>
+        </div>
+        <!-- Preston Segura -->
+        <div class="col-lg-4" style="text-align: center; margin-bottom: 20px;">
+          <a href="AboutPreston" style="color: black">
+          <img class="img-circle" src="{% static "/images/Preston.jpg" %}" alt="title" width="300" height="300">
+          <div class="col-lg-12">
+            <h2> <b>Preston Segura</b> </h2>
+            <p>Front-End Developer</p>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+          <!-- Emilio Quiambao -->
+          <div class="col-lg-4" style="text-align: center; margin-bottom: 20px;">
+            <a href="AboutEmilio" style="color: black">
+            <img class="img-circle" src="{% static "/images/EmilioQuiambao.jpeg" %}"  alt="title" width="300" height="300">
+            <div class="col-lg-12">
+              <h2> <b>Emilio Quiambao</b> </h2>
+              <p>Back-End Lead</p>
+              </a>
+            </div>
+          </div>
+        <!-- Marcelo Coronado -->
+        <div class="col-lg-4" style="text-align: center; margin-bottom: 20px;">
+          <a href="AboutMarcelo" style="color: black">
+          <img class="img-circle" src="{% static "/images/MarceloC.jpg" %}" alt="title" width="300" height="300">
+          <div class="col-lg-12">
+            <h2> <b>Marcelo Coronado</b> </h2>
+            <p>Back-End Developer</p>
+            </a>
+          </div>
+        </div>
+        <!-- Patrick Shi -->
+        <div class="col-lg-4" style="text-align: center; margin-bottom: 20px;">
+          <a href="AboutPeitong" style="color: black">
+          <img class="img-circle" src="{% static "/images/PeitongShi.jpg" %}" alt="title" width="300" height="300">
+          <div class="col-lg-12">
+            <h2> <b>Patrick Shi</b> </h2>
+            <p>Back-End Developer</p>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Javascript files linked at bottom of the page [THIS (vvv) NEED TO BE ABOVE BOOTSTRAP JS]-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Latest compiled and minified JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+  </body>
+</html>

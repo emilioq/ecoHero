@@ -1,0 +1,109 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>About | Andrew Wong</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118983006-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-118983006-1');
+  </script>
+  <style>
+  body {
+      font: 20px Montserrat, sans-serif;
+      line-height: 1.8;
+      color: #f5f6f7;
+  }
+  p {font-size: 16px;}
+  .margin {margin-bottom: 45px;}
+  .bg-1 {
+      background-color: #1abc9c; /* Green */
+      color: #ffffff;
+  }
+  .bg-2 {
+      background-color: #474e5d; /* Dark Blue */
+      color: #ffffff;
+  }
+  .bg-3 {
+      background-color: #ffffff; /* White */
+      color: #555555;
+  }
+  .bg-4 {
+      background-color: #2f2f2f; /* Black Gray */
+      color: #fff;
+  }
+  .container-fluid {
+      padding-top: 70px;
+      padding-bottom: 70px;
+  }
+  .container-footer {
+      padding-top: 20px;
+      padding-bottom: 20px;
+  }
+  .NAME {
+      font-size: 50px;
+  }
+  .navbar {
+      padding-top: 15px;
+      padding-bottom: 15px;
+      border: 0;
+      border-radius: 0;
+      margin-bottom: 0;
+      font-size: 12px;
+      letter-spacing: 5px;
+  }
+  .navbar-nav  li a:hover {
+      color: #1abc9c !important;
+  }
+  p.description {
+    padding: .5cm 7cm;
+  }
+  </style>
+</head>
+<body>
+
+  <!-- Demo Banner -->
+  <div class="row bg-info text-light" style="">
+    <div class="col-lg-12 text-center">SFSU Software Engineering Final Project, Spring 2018. For Demonstration Only</div>
+  </div>
+  <!-- Navbar -->
+  <nav class="navbar navbar-default">
+    <div class="container">
+      <div class="navbar-header">
+        <a class="navbar-brand" href="index2">Back to  <b> ecoHero </b> </a>
+      </div>
+    </div>
+  </nav>
+
+<!-- First Container -->
+<div class="container-fluid bg-1 text-center">
+  <img src="{% static "/images/AndrewWong.jpg" %}"  class="img-responsive img-circle margin" style="display:inline" alt="Bird" width="350" height="350">
+  <h3 class="NAME"><b>Andrew Wong</b></h3>
+  <h3 class="ROLE">Team Lead</h3>
+</div>
+
+<!-- Second Container -->
+<div class="container-fluid bg-2 text-center">
+  <h3 class="margin">Who I Is?</h3>
+  <p class="description">I am a senior at SF State University studying Computer Science. My personal interests include functional design patterns,
+    algorithm analysis, and software architecture.</p>
+</div>
+
+<!-- Footer -->
+<footer class="container-footer bg-4 text-center">
+  <p>San Francisco State University</p>
+  <p>CSC 648</p>
+  <p>Team 02</p>
+</footer>
+
+</body>
+</html>

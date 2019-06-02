@@ -1,0 +1,298 @@
+<!-- by EMILIO -->
+<!-- Agent Index -->
+
+
+
+{% load staticfiles %}
+
+<head>
+  <style>
+
+  body { background: #FDFDFD !important; }
+
+  .title {
+    text-align: center;
+    margin-bottom: 50px;
+    margin-left: 25%;
+    padding: 10px;
+    width:50%;
+    font-size: 30px;
+    font-family: Sans-serif;
+  }
+
+  .title a {
+      text-decoration: none;
+      color: #000000;
+  }
+
+  .search-bar {
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    width:50%;
+    letter-spacing: 3px;
+    background: white;
+    box-shadow: 0px 10px 18px #888888;
+  }
+
+  .sortby {
+    margin-top:10px;
+  }
+
+  .results {
+    justify-content: center;
+    font-style: italic;
+    text-align: center;
+    margin-top: 30px;
+    padding-bottom: 20px;
+  }
+
+  .wrapper{
+    margin-left: 20%;
+    width: 100%;
+    /* border: 1px solid black; */
+    overflow: auto;
+    border-radius: 25px;
+  }
+
+  .center{
+    width: 100%;
+    height: auto;
+  }
+
+  .hazard{
+    box-shadow: 5px 10px 18px #888888;
+    border-radius: 5px;
+    margin: 20px;
+  }
+
+  .row {
+    justify-content: center;
+  }
+
+  .searchtitle{
+    padding-bottom: 20px;
+    padding-top: 20px;
+  }
+  .SEARCHINGBAR{
+    align-content: center;
+    align-items: center;
+  }
+
+  .form-control{
+    display: inline!important;
+  }
+
+  </style>
+
+    <title>ecoHero | Search Results</title>
+    <link rel="stylesheet" href="{% static 'css/main.css' %}">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.11.0/umd/popper.min.js">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js">
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118983006-1"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-118983006-1');
+    </script>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.0/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.1.0/js/bootstrap.min.js"></script>
+</head>
+
+<!-- Demo Banner -->
+<div class="row bg-info text-light" style="">
+  <div class="col-lg-12 text-center">SFSU Software Engineering Final Project, Spring 2018. For Demonstration Only</div>
+</div>
+<!-- navBar -->
+<nav class="navbar sticky-top navbar-expand-lg navbar-light bg-light mt-0">
+  <a class="navbar-brand" href="index2" style="font-size: 36px;">ecoHero</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+<div class="collapse navbar-collapse" id="navbarSupportedContent">
+  <ul class="navbar-nav mr-auto">
+    <li class="nav-item">
+      <a class="nav-link m-2" href="about">About<span class="sr-only">(current)</span></a>
+    </li>
+    <!--
+    <li class="nav-item active">
+      <a class="nav-link" href="searchresults2">Browse <span class="sr-only">(current)</span></a>
+    </li>
+  -->
+    <li class="nav-item">
+      <a class="nav-link m-2" href="submit">Post a Hazard<span class="sr-only">(current)</span></a>
+    </li>
+
+    <li class="nav-item">
+      <a class="nav-link m-2" href="agent">Agent Dashboard<span class="sr-only">(current)</span></a>
+    </li>
+  </ul>
+</div>
+
+<a class="text">Hello, {{user.username}}! </a>
+<a href="logout"> <button class="btn btn-outline-danger my-2 my-sm-0 mx-3"> Log out </button> </a>
+</nav>
+
+<!-- Search Area -->
+<div class="search-bar container-fluid sticky-top">
+  <h3 class="searchtitle">Hazard Status Manager</h3>
+  <div class="SEARCHINGBAR col-lg-12">
+  <form name="form1" method="POST" action="agent"> {% csrf_token %}
+
+    <select name="category" class="form-control" style="max-width: 7%;">
+      <option>All</option>
+
+      {% if category == 'Chemical' %}
+        <option value = "Chemical" selected="selected"> Chemical </option>
+      {% else %}
+        <option value = "Chemical">Chemical</option>
+      {% endif %}
+
+      {% if category == 'Physical' %}
+        <option value = "Physical" selected="selected"> Physical </option>
+      {% else %}
+        <option value = "Physical"> Physical </option>
+      {% endif %}
+
+      {% if category == 'Biological' %}
+        <option value = "Biological" selected="selected"> Biological </option>
+      {% else %}
+        <option value = "Biological"> Biological </option>
+      {% endif %}
+
+    </select>
+
+      <input class=" form-control col-lg-8" type="text" name="search"  size="40" maxlength="50" value="{{input}}" style="max-width: 20%"/>
+      <input class="btn btn-outline-success" type="submit" name="Submit" value="Search"/>
+    </div>
+</div>
+
+    <!-- # of posts and filter -->
+    {% if pns %}
+      <div class="results">
+        {{ posts|length }} hazard(s) found:
+        <div class="sortby">
+          <select name="sort" onchange="this.form.submit()" class="form-control" style="max-width: 7%;">
+            <option>Sort by</option>
+
+            {% if sort == 'newest' %}
+              <option value = "newest" selected="selected">Newest first</option>
+            {% else %}
+              <option value = "newest">Newest first</option>
+            {% endif %}
+
+            {% if sort == 'oldest' %}
+              <option value = "oldest" selected="selected">Oldest first</option>
+            {% else %}
+              <option value = "oldest">Oldest first</option>
+            {% endif %}
+          </select>
+        </div>
+      </div>
+  </form>
+
+
+
+
+<!-- RESULTS -->
+<!--h3 class="text-center">Results</h3-->
+<div class="container mt-4 bg-white">
+  <div class="row">
+
+  {% for p, s in pns %}
+    <div class="card hazard bg-light mb-3" style="width: 20rem; height: 36rem;">
+
+      {% if s.status == 'IN PROGRESS' %}
+      <a data-toggle="modal" data-id="{{p.post_id}}" data-target="#statusModal">
+      <div class="card-header text-white bg-warning text-center" style="cursor: pointer"><b>IN PROGRESS</b></div>
+      <a>
+
+      {% elif s.status == 'FINISHED' %}
+      <a data-toggle="modal" data-id="{{p.post_id}}" data-target="#statusModal">
+      <div class="card-header text-white bg-success text-center" style="cursor: pointer"><b>FINISHED</b></div>
+      <a>
+
+      {% else %}
+      <a data-toggle="modal" data-id="{{p.post_id}}" data-target="#statusModal">
+      <div class="card-header text-center" style="cursor: pointer"><b>PENDING</b></div>
+      <a>
+
+      {% endif %}
+
+
+      <a href="post/{{p.post_id}}" target="_blank">
+        {% if p.image %}
+          <img class="card-img-top" src="{{p.thumbnail.url}}" alt="Card image cap" >
+        {% else %}
+          <img class="card-img-top" src="../../media/post_imgs/default.jpg" alt="Card image cap">
+        {% endif %}
+      </a>
+      <div class="card-body">
+        <a href="post/{{p.post_id}}" target="_blank" style="color: inherit;">
+          <h5 class="card-title">{{ p.title }}</h5>
+        </a>
+        <p class="card-text">{{ p.description | truncatechars:100  }}</p>
+      </div>
+      <div class="card-footer">
+        <p class="card-text">
+          <small class="text-muted">
+            {{ p.time|timesince }} ago </br>
+            <a href="https://www.google.com/maps/search/{{p.location}}" target="_blank" style="color: inherit;">
+              &#x1F4CD; {{p.location|title}}
+            </a>
+          </small>
+        </p>
+      </div>
+    </div>
+
+  {% endfor %}
+
+
+  <!-- Status Modal -->
+  <div class="modal fade" id="statusModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="title"></h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div id="details" class="modal-body text-center">
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <script>
+  $('#statusModal').on('show.bs.modal', function(event) {
+      var postno = $(event.relatedTarget).data('id');
+      $(this).find('#details').html($('<p> Change status of post <b>no. ' + postno + '</b> ?</p> </br>' +
+      '<a href="inprogress/'+ postno + '"class="btn btn-warning text-white mx-2 mb-2"><b>IN PROGRESS</b></a>' +
+      '<a href="finished/'+ postno + '"class="btn btn-success  text-white mx-2 mb-2"><b>FINISHED</b></a>' ));
+
+      $(this).find('#title').text('Update status');
+  });
+  </script>
+
+  </div>
+</div>
+
+
+
+
+
+{% else %}
+  <div class="results text-center">
+    There are no hazards with '{{ input }}' found.
+  </div>
+{% endif %}

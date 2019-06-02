@@ -1,0 +1,200 @@
+/* Tiny reset thingy */
+body,html{margin:0;padding:0;}
+
+body {
+    background: rgba(50,50,50,1);
+    font-size: 100%;
+    color: white;
+}
+
+header {
+    width: 100%;
+    max-width: 100%;
+    position: fixed;
+    z-index: 999;
+    background: rgba(0,0,0,0);
+}
+
+
+div buttonlogin {
+    position: absolute;
+    right: 10px;
+    top: 5px;
+}
+
+
+nav a {
+    font: 1.2em/1em sans-serif;
+    display: inline-block;
+    text-decoration: none;
+    color: white;
+}
+
+
+p {
+    line-height: 1.65em;
+    padding: 10px;
+}
+
+.hazard {
+  box-shadow: 5px 10px 18px #888888;
+  border-radius: 5px;
+  margin: 20px;
+}
+
+.wrapper {
+  /* The height needs to be set to a fixed value for the effect to work.
+   * 100vh is the full height of the viewport. */
+  height: 100vh;
+  /* The scaling of the images would add a horizontal scrollbar, so disable x overflow. */
+  overflow-x: hidden;
+  /* Enable scrolling on the page. */
+  overflow-y: auto;
+  /* Set the perspective to 2px. This is essentailly the simulated distance from the viewport to transformed objects.*/
+  perspective: 2px;
+
+}
+
+.section {
+  /* Needed for children to be absolutely positioned relative to the parent. */
+  position: relative;
+  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
+  height: 100vh;
+
+  /* For text formatting. */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+
+}
+
+.test {
+  /* Needed for children to be absolutely positioned relative to the parent. */
+  position: relative;
+  /* The height of the container. Must be set, but it doesn't really matter what the value is. */
+  height: 75vh;
+
+  /* For text formatting. */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 0 5px #000;
+
+  padding-top: 70px;
+  padding-bottom: 70px;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.parallax::after {
+  /* Display and position the pseudo-element */
+  align-items: center;
+  content: " ";
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  /* Move the pseudo-element back away from the camera,
+   * then scale it back up to fill the viewport.
+   * Because the pseudo-element is further away, it appears to move more slowly, like in real life. */
+  transform: translateZ(-1px) scale(1.5);
+  /* Force the background image to fill the whole element. */
+  background-size: 100%;
+  /* Keep the image from overlapping sibling elements. */
+  z-index: -1;
+
+}
+
+/* The styling for the static div. */
+.static {
+  background: #F1F6DC;
+  height: 75vh;
+}
+.static1 {
+  background: #F1F6DC;
+  height: 25vh;
+}
+
+/* Sets the actual background images to adorable kitties. This part is crucial. */
+.bg1::after {
+  background-image: url("/static/images/ocean.jpg");
+}
+
+.bg2::after {
+  background-image: url("/static/images/valley.jpg");
+}
+.button {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+
+    position: absolute;
+    top: 60%;
+    left: 50%;
+
+    margin: auto;
+}
+.button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+.loginbutton {
+    background-color: #f0f5db;
+    border: 4px;
+    color: #4CAF50;
+    padding: 16px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 4px;
+
+    position: absolute;
+    top: 60%;
+    left: 40%;
+
+    margin: auto;
+}
+.loginbutton:hover {
+    background-color: #4CAF50;
+    color: white;
+}
+.form-inline{
+  position: relative;
+
+    margin: auto;
+    float: none;
+    text-align: center;
+    padding: 8px 0;
+}
+.info{
+  padding-bottom: 20px;
+  padding-top: 20px;
+  margin-left:10px;
+  margin-top:10px;
+  margin-right:10px;
+  margin-bottom:10px;
+  align-items: center;
+}
+
+.img-responsive{
+  align-items: center;
+}

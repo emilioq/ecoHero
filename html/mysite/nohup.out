@@ -1,0 +1,1121 @@
+[22/Feb/2018 18:32:06] "GET /index HTTP/1.1" 200 6772
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 18:32:06] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 18:32:06] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 18:32:06] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /CSS/main.css
+[22/Feb/2018 18:32:06] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 18:32:06] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 18:32:06] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 18:32:06] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 18:32:06] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 18:32:06] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[22/Feb/2018 18:33:20] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 18:33:20] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 18:33:20] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 18:33:20] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 18:33:20] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 18:33:20] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 18:33:20] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 18:33:20] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 18:33:20] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 18:33:20] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[22/Feb/2018 18:33:22] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 18:33:22] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 18:33:22] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 18:33:22] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 18:33:22] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 18:33:22] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 18:33:22] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 18:33:22] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 18:33:22] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 18:33:22] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[22/Feb/2018 18:33:25] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 18:33:26] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 18:33:26] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 18:33:26] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 18:33:26] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 18:33:26] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 18:33:26] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 18:33:26] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 18:33:26] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 18:33:26] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[22/Feb/2018 18:34:15] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 18:34:15] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 18:34:15] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 18:34:15] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 18:34:15] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 18:34:15] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 18:34:15] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 18:34:15] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 18:34:15] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 18:34:15] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[22/Feb/2018 18:34:34] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 18:34:34] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 18:34:35] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 18:34:35] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 18:34:36] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 18:34:36] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 18:34:36] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 18:34:36] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 18:34:36] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 18:34:36] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+Not Found: /favicon.ico
+[22/Feb/2018 18:34:36] "GET /favicon.ico HTTP/1.1" 404 3548
+[22/Feb/2018 18:34:42] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 18:34:42] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 18:34:42] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 18:34:42] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 18:34:42] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 18:34:42] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 18:34:42] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 18:34:42] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 18:34:42] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 18:34:42] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[22/Feb/2018 18:34:44] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 18:34:44] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 18:34:44] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 18:34:44] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 18:34:44] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 18:34:44] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 18:34:44] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 18:34:44] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 18:34:44] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 18:34:44] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[22/Feb/2018 18:34:47] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 18:34:47] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 18:34:47] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 18:34:47] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 18:34:47] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 18:34:47] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 18:34:47] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 18:34:47] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 18:34:47] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 18:34:47] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[22/Feb/2018 18:37:43] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 18:37:43] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 18:37:43] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+[22/Feb/2018 18:37:43] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 18:37:43] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 18:37:43] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 18:37:43] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 18:37:43] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 18:37:43] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 18:37:43] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /404
+[22/Feb/2018 18:37:48] "GET /404 HTTP/1.1" 404 3524
+[22/Feb/2018 18:41:42] "GET /index HTTP/1.1" 200 6772
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 18:41:42] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /public/images/ConnorAguilera.jpg
+Not Found: /CSS/main.css
+[22/Feb/2018 18:41:42] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 18:41:42] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+[22/Feb/2018 18:41:42] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 18:41:42] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 18:41:42] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 18:41:42] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 18:41:42] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 18:41:42] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[22/Feb/2018 18:46:58] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 18:46:58] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 18:46:58] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 18:46:58] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 18:46:58] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 18:46:58] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 18:46:58] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 18:46:58] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 18:46:58] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 18:46:58] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[22/Feb/2018 18:51:46] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 18:51:46] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 18:51:46] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 18:51:46] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 18:51:46] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 18:51:46] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 18:51:46] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 18:51:46] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 18:51:46] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 18:51:46] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[22/Feb/2018 19:28:06] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 19:28:06] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 19:28:06] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 19:28:06] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 19:28:06] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 19:28:06] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 19:28:06] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 19:28:06] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 19:28:06] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 19:28:06] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[22/Feb/2018 19:28:20] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 19:28:21] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 19:28:21] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 19:28:21] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 19:28:21] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 19:28:21] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 19:28:21] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 19:28:21] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 19:28:21] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 19:28:21] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+Unknown command: 'ec2-user@ec2-52-53-167-195.us-west-1.compute.amazonaws.com'
+Type 'manage.py help' for usage.
+[22/Feb/2018 19:30:01] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 19:30:02] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 19:30:02] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 19:30:02] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 19:30:02] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 19:30:02] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 19:30:02] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 19:30:02] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 19:30:02] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 19:30:02] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[22/Feb/2018 19:30:05] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 19:30:05] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 19:30:05] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 19:30:05] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 19:30:05] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 19:30:05] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 19:30:05] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 19:30:05] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 19:30:05] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 19:30:05] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[22/Feb/2018 19:30:08] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 19:30:08] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 19:30:08] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 19:30:08] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 19:30:08] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 19:30:08] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 19:30:08] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 19:30:08] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 19:30:08] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 19:30:08] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[22/Feb/2018 19:30:13] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 19:30:13] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 19:30:13] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 19:30:13] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 19:30:13] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 19:30:13] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 19:30:13] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 19:30:13] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 19:30:13] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 19:30:13] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[22/Feb/2018 19:34:18] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 19:34:19] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 19:34:19] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 19:34:19] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 19:34:19] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 19:34:19] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 19:34:19] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 19:34:19] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 19:34:19] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 19:34:19] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[22/Feb/2018 19:37:24] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 19:37:24] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 19:37:24] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 19:37:24] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 19:37:24] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 19:37:24] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 19:37:24] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 19:37:24] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 19:37:24] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 19:37:24] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+Not Found: /favicon.ico
+[22/Feb/2018 19:37:24] "GET /favicon.ico HTTP/1.1" 404 3548
+[22/Feb/2018 19:39:42] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 19:39:42] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 19:39:42] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 19:39:42] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 19:39:42] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 19:39:42] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 19:39:42] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 19:39:42] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 19:39:42] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 19:39:42] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[22/Feb/2018 19:40:34] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 19:40:34] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 19:40:34] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 19:40:34] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 19:40:34] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+[22/Feb/2018 19:40:34] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 19:40:34] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 19:40:34] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 19:40:34] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 19:40:35] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[22/Feb/2018 20:02:37] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 20:02:37] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 20:02:37] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 20:02:37] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 20:02:37] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 20:02:37] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 20:02:37] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 20:02:37] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 20:02:37] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 20:02:37] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[22/Feb/2018 20:03:34] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[22/Feb/2018 20:03:34] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 20:03:34] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 20:03:34] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 20:03:34] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 20:03:34] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 20:03:34] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 20:03:34] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 20:03:34] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 20:03:34] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+Not Found: /phpmyadmin/scripts/setup.php
+[22/Feb/2018 20:06:27] "GET /phpmyadmin/scripts/setup.php HTTP/1.1" 404 3599
+Not Found: /phpMyAdmin/scripts/setup.php
+[22/Feb/2018 20:06:31] "GET /phpMyAdmin/scripts/setup.php HTTP/1.1" 404 3599
+Invalid HTTP_HOST header: 'ip-172-31-10-126.us-west-1.compute.internal'. You may need to add 'ip-172-31-10-126.us-west-1.compute.internal' to ALLOWED_HOSTS.
+[22/Feb/2018 21:34:20] "HEAD /scripts/setup.php HTTP/1.0" 400 58308
+Invalid HTTP_HOST header: 'ip-172-31-10-126.us-west-1.compute.internal'. You may need to add 'ip-172-31-10-126.us-west-1.compute.internal' to ALLOWED_HOSTS.
+[22/Feb/2018 22:41:03] "HEAD /scripts/setup.php HTTP/1.0" 400 58308
+Invalid HTTP_HOST header: 'ip-172-31-10-126.us-west-1.compute.internal'. You may need to add 'ip-172-31-10-126.us-west-1.compute.internal' to ALLOWED_HOSTS.
+[22/Feb/2018 23:01:44] "GET / HTTP/1.0" 400 58417
+Not Found: /CSS/main.css
+[22/Feb/2018 23:02:23] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/ConnorAguilera.jpg
+[22/Feb/2018 23:02:23] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[22/Feb/2018 23:02:23] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/CSC648Banner-01.png
+[22/Feb/2018 23:02:23] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /public/images/EmilioQuiambao.jpeg
+[22/Feb/2018 23:02:23] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[22/Feb/2018 23:02:23] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/PeitongShi.jpg
+[22/Feb/2018 23:02:23] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[22/Feb/2018 23:02:23] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[22/Feb/2018 23:02:23] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+Not Found: /favicon.ico
+[22/Feb/2018 23:02:24] "GET /favicon.ico HTTP/1.1" 404 3548
+[22/Feb/2018 23:14:21] "GET / HTTP/1.1" 200 6772
+Not Found: /phpMyAdmin/scripts/setup.php
+[22/Feb/2018 23:24:32] "GET /phpMyAdmin/scripts/setup.php HTTP/1.1" 404 3599
+Not Found: /pma/scripts/setup.php
+[22/Feb/2018 23:24:33] "GET /pma/scripts/setup.php HTTP/1.1" 404 3578
+Not Found: /mysql/scripts/setup.php
+[22/Feb/2018 23:24:39] "GET /mysql/scripts/setup.php HTTP/1.1" 404 3584
+Not Found: /phpMyAdmin2/scripts/setup.php
+[22/Feb/2018 23:25:00] "GET /phpMyAdmin2/scripts/setup.php HTTP/1.1" 404 3602
+Not Found: /php-my-admin/scripts/setup.php
+[22/Feb/2018 23:25:10] "GET /php-my-admin/scripts/setup.php HTTP/1.1" 404 3605
+Invalid HTTP_HOST header: 'ec2-52-53-167-195.us-west-1.compute.amazonaws.com'. You may need to add 'ec2-52-53-167-195.us-west-1.compute.amazonaws.com' to ALLOWED_HOSTS.
+[23/Feb/2018 02:45:38] "GET / HTTP/1.1" 400 58362
+[23/Feb/2018 03:49:00] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[23/Feb/2018 03:49:00] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[23/Feb/2018 03:49:00] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[23/Feb/2018 03:49:00] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/ConnorAguilera.jpg
+[23/Feb/2018 03:49:00] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[23/Feb/2018 03:49:00] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/PeitongShi.jpg
+[23/Feb/2018 03:49:00] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/EmilioQuiambao.jpeg
+[23/Feb/2018 03:49:00] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/SahasArora.png
+[23/Feb/2018 03:49:00] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[23/Feb/2018 03:49:00] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+Not Found: /favicon.ico
+[23/Feb/2018 03:49:00] "GET /favicon.ico HTTP/1.1" 404 3548
+Invalid HTTP_HOST header: 'ip-172-31-10-126.us-west-1.compute.internal'. You may need to add 'ip-172-31-10-126.us-west-1.compute.internal' to ALLOWED_HOSTS.
+[23/Feb/2018 08:35:06] "HEAD /scripts/setup.php HTTP/1.0" 400 58308
+[23/Feb/2018 09:40:09] code 400, message Bad request syntax ('SSH-2.0-Go')
+[23/Feb/2018 09:40:09] "SSH-2.0-Go" 400 -
+[23/Feb/2018 09:40:13] code 400, message Bad request version ('À\x14À')
+[23/Feb/2018 09:40:13] You're accessing the development server over HTTPS, but it only supports HTTP.
+
+[23/Feb/2018 09:40:13] "GET / HTTP/1.1" 200 6772
+Invalid HTTP_HOST header: 'ec2-52-53-167-195.us-west-1.compute.amazonaws.com'. You may need to add 'ec2-52-53-167-195.us-west-1.compute.amazonaws.com' to ALLOWED_HOSTS.
+[23/Feb/2018 10:46:14] "GET / HTTP/1.1" 400 58896
+[23/Feb/2018 14:26:18] "GET / HTTP/1.1" 200 6772
+[23/Feb/2018 23:18:45] "GET / HTTP/1.1" 200 6772
+[24/Feb/2018 01:55:52] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[24/Feb/2018 01:55:52] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[24/Feb/2018 01:55:52] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[24/Feb/2018 01:55:52] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/ConnorAguilera.jpg
+[24/Feb/2018 01:55:52] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[24/Feb/2018 01:55:52] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[24/Feb/2018 01:55:52] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/SahasArora.png
+[24/Feb/2018 01:55:52] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PeitongShi.jpg
+[24/Feb/2018 01:55:52] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[24/Feb/2018 01:55:52] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+Not Found: /favicon.ico
+[24/Feb/2018 01:55:52] "GET /favicon.ico HTTP/1.1" 404 3548
+[24/Feb/2018 01:58:25] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[24/Feb/2018 01:58:25] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[24/Feb/2018 01:58:25] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[24/Feb/2018 01:58:25] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/ConnorAguilera.jpg
+[24/Feb/2018 01:58:25] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[24/Feb/2018 01:58:25] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[24/Feb/2018 01:58:25] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[24/Feb/2018 01:58:25] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[24/Feb/2018 01:58:25] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+Not Found: /public/images/SahasArora.png
+[24/Feb/2018 01:58:25] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /favicon.ico
+[24/Feb/2018 01:58:25] "GET /favicon.ico HTTP/1.1" 404 3548
+[24/Feb/2018 01:58:27] "GET /AboutPeitong HTTP/1.1" 200 2637
+Not Found: /public/images/PeitongShi.jpg
+[24/Feb/2018 01:58:27] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+[24/Feb/2018 02:18:12] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[24/Feb/2018 02:18:12] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[24/Feb/2018 02:18:12] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[24/Feb/2018 02:18:12] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/ConnorAguilera.jpg
+[24/Feb/2018 02:18:12] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[24/Feb/2018 02:18:12] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[24/Feb/2018 02:18:12] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/SahasArora.png
+Not Found: /public/images/PeitongShi.jpg
+[24/Feb/2018 02:18:12] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[24/Feb/2018 02:18:12] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+[24/Feb/2018 02:18:12] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+Not Found: /favicon.ico
+[24/Feb/2018 02:18:12] "GET /favicon.ico HTTP/1.1" 404 3548
+[24/Feb/2018 03:03:56] "HEAD / HTTP/1.1" 200 6772
+[24/Feb/2018 07:33:28] "GET / HTTP/1.1" 200 6772
+[24/Feb/2018 07:41:41] "GET / HTTP/1.1" 200 6772
+Invalid HTTP_HOST header: 'ip-172-31-10-126.us-west-1.compute.internal'. You may need to add 'ip-172-31-10-126.us-west-1.compute.internal' to ALLOWED_HOSTS.
+[24/Feb/2018 07:55:40] "GET / HTTP/1.0" 400 58115
+Traceback (most recent call last):
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib64/python3.5/socket.py", line 594, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[24/Feb/2018 07:55:40] "GET / HTTP/1.0" 500 59
+Traceback (most recent call last):
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib64/python3.5/socket.py", line 594, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/usr/local/lib64/python3.5/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib64/python3.5/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/lib64/python3.5/wsgiref/simple_server.py", line 36, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+[24/Feb/2018 08:35:30] "GET / HTTP/1.0" 200 6772
+[24/Feb/2018 08:35:31] "GET / HTTP/1.1" 200 6772
+[24/Feb/2018 12:30:27] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[24/Feb/2018 12:30:27] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[24/Feb/2018 12:30:27] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[24/Feb/2018 12:30:27] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/ConnorAguilera.jpg
+[24/Feb/2018 12:30:27] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[24/Feb/2018 12:30:27] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[24/Feb/2018 12:30:27] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[24/Feb/2018 12:30:27] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[24/Feb/2018 12:30:27] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[24/Feb/2018 12:30:27] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+Not Found: /CSS/main.css
+[24/Feb/2018 15:10:47] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[24/Feb/2018 15:10:47] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[24/Feb/2018 15:10:47] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/PeitongShi.jpg
+[24/Feb/2018 15:10:47] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/ConnorAguilera.jpg
+[24/Feb/2018 15:10:47] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[24/Feb/2018 15:10:47] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[24/Feb/2018 15:10:47] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/SahasArora.png
+[24/Feb/2018 15:10:47] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[24/Feb/2018 15:10:47] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+Not Found: /favicon.ico
+[24/Feb/2018 15:10:47] "GET /favicon.ico HTTP/1.1" 404 3548
+Not Found: /CSS/main.css
+[24/Feb/2018 15:10:51] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[24/Feb/2018 15:10:51] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[24/Feb/2018 15:10:52] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/ConnorAguilera.jpg
+[24/Feb/2018 15:10:52] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[24/Feb/2018 15:10:52] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[24/Feb/2018 15:10:52] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/SahasArora.png
+[24/Feb/2018 15:10:56] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PeitongShi.jpg
+[24/Feb/2018 15:10:56] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[24/Feb/2018 15:10:57] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+Not Found: /CSS/main.css
+[24/Feb/2018 15:11:01] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[24/Feb/2018 15:11:01] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+[24/Feb/2018 15:40:12] "GET /index HTTP/1.1" 200 6772
+[24/Feb/2018 15:40:24] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[24/Feb/2018 15:40:24] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[24/Feb/2018 15:40:25] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[24/Feb/2018 15:40:25] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/MarceloC.jpg
+[24/Feb/2018 15:40:25] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[24/Feb/2018 15:40:25] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/ConnorAguilera.jpg
+[24/Feb/2018 15:40:25] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/PeitongShi.jpg
+[24/Feb/2018 15:40:25] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[24/Feb/2018 15:40:25] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[24/Feb/2018 15:40:25] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+Not Found: /favicon.ico
+[24/Feb/2018 15:40:25] "GET /favicon.ico HTTP/1.1" 404 3548
+[24/Feb/2018 15:40:34] "GET /AboutConnor HTTP/1.1" 200 2687
+Not Found: /public/images/ConnorAguilera.jpg
+[24/Feb/2018 15:40:34] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+[24/Feb/2018 15:40:37] "GET /AboutAndrew HTTP/1.1" 200 2583
+Not Found: /public/images/AndrewWong.jpg
+[24/Feb/2018 15:40:37] "GET /public/images/AndrewWong.jpg HTTP/1.1" 404 3599
+[24/Feb/2018 15:40:39] "GET /AboutMarcelo HTTP/1.1" 200 2504
+Not Found: /public/images/MarceloC.jpg
+[24/Feb/2018 15:40:39] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+[24/Feb/2018 15:40:41] "GET /AboutSahas HTTP/1.1" 200 2643
+Not Found: /public/images/SahasArora.png
+[24/Feb/2018 15:40:41] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+[24/Feb/2018 15:41:24] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[24/Feb/2018 15:41:24] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[24/Feb/2018 15:41:24] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[24/Feb/2018 15:41:24] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/EmilioQuiambao.jpeg
+[24/Feb/2018 15:41:24] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/MarceloC.jpg
+[24/Feb/2018 15:41:24] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/ConnorAguilera.jpg
+[24/Feb/2018 15:41:24] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/SahasArora.png
+[24/Feb/2018 15:41:24] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PeitongShi.jpg
+[24/Feb/2018 15:41:24] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[24/Feb/2018 15:41:24] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[24/Feb/2018 15:41:49] "GET /AboutConnor HTTP/1.1" 200 2687
+Not Found: /public/images/ConnorAguilera.jpg
+[24/Feb/2018 15:41:49] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+[24/Feb/2018 15:42:06] "GET /AboutAndrew HTTP/1.1" 200 2583
+Not Found: /public/images/AndrewWong.jpg
+[24/Feb/2018 15:42:06] "GET /public/images/AndrewWong.jpg HTTP/1.1" 404 3599
+[24/Feb/2018 15:42:42] "GET /AboutPeitong HTTP/1.1" 200 2637
+Not Found: /public/images/PeitongShi.jpg
+[24/Feb/2018 15:42:42] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+[24/Feb/2018 15:42:49] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[24/Feb/2018 15:42:49] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /templates/public/images/AndrewWong.jpg
+[24/Feb/2018 15:42:49] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/MarceloC.jpg
+[24/Feb/2018 15:42:49] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/ConnorAguilera.jpg
+[24/Feb/2018 15:42:49] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/CSC648Banner-01.png
+[24/Feb/2018 15:42:49] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /public/images/EmilioQuiambao.jpeg
+[24/Feb/2018 15:42:49] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[24/Feb/2018 15:42:49] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[24/Feb/2018 15:42:49] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+Not Found: /public/images/SahasArora.png
+[24/Feb/2018 15:42:49] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /favicon.ico
+[24/Feb/2018 15:42:49] "GET /favicon.ico HTTP/1.1" 404 3548
+[24/Feb/2018 15:51:50] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[24/Feb/2018 15:51:50] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[24/Feb/2018 15:51:50] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[24/Feb/2018 15:51:50] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/EmilioQuiambao.jpeg
+[24/Feb/2018 15:51:50] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/ConnorAguilera.jpg
+[24/Feb/2018 15:51:50] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/SahasArora.png
+[24/Feb/2018 15:51:50] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PeitongShi.jpg
+[24/Feb/2018 15:51:50] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/MarceloC.jpg
+[24/Feb/2018 15:51:50] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/PrestonSegura.jpg
+[24/Feb/2018 15:51:50] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[24/Feb/2018 15:51:51] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[24/Feb/2018 15:51:51] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[24/Feb/2018 15:51:51] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /templates/public/images/AndrewWong.jpg
+[24/Feb/2018 15:51:52] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/ConnorAguilera.jpg
+[24/Feb/2018 15:51:52] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[24/Feb/2018 15:51:52] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/SahasArora.png
+[24/Feb/2018 15:51:52] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/EmilioQuiambao.jpeg
+[24/Feb/2018 15:51:52] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[24/Feb/2018 15:51:52] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[24/Feb/2018 15:51:52] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[24/Feb/2018 19:19:28] "GET / HTTP/1.1" 200 6772
+[24/Feb/2018 21:30:25] "GET / HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[24/Feb/2018 21:30:25] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[24/Feb/2018 21:30:25] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /public/images/ConnorAguilera.jpg
+[24/Feb/2018 21:30:25] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /templates/public/images/AndrewWong.jpg
+[24/Feb/2018 21:30:25] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/MarceloC.jpg
+[24/Feb/2018 21:30:25] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[24/Feb/2018 21:30:25] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[24/Feb/2018 21:30:25] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[24/Feb/2018 21:30:25] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[24/Feb/2018 21:30:25] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+Not Found: /w00tw00t.at.blackhats.romanian.anti-sec:)
+[24/Feb/2018 23:53:18] "GET /w00tw00t.at.blackhats.romanian.anti-sec:) HTTP/1.1" 404 3638
+Not Found: /phpMyAdmin/scripts/setup.php
+[24/Feb/2018 23:53:18] "GET /phpMyAdmin/scripts/setup.php HTTP/1.1" 404 3599
+Not Found: /myadmin/scripts/setup.php
+[24/Feb/2018 23:53:26] "GET /myadmin/scripts/setup.php HTTP/1.1" 404 3590
+Not Found: /MyAdmin/scripts/setup.php
+[24/Feb/2018 23:53:27] "GET /MyAdmin/scripts/setup.php HTTP/1.1" 404 3590
+Not Found: /_PHPMYADMIN/scripts/setup.php
+[24/Feb/2018 23:53:27] "GET /_PHPMYADMIN/scripts/setup.php HTTP/1.1" 404 3602
+Not Found: /_pHpMyAdMiN/scripts/setup.php
+[24/Feb/2018 23:53:32] "GET /_pHpMyAdMiN/scripts/setup.php HTTP/1.1" 404 3602
+Not Found: /_phpMyAdmin/scripts/setup.php
+[24/Feb/2018 23:53:32] "GET /_phpMyAdmin/scripts/setup.php HTTP/1.1" 404 3602
+Not Found: /mysql/scripts/setup.php
+[24/Feb/2018 23:53:36] "GET /mysql/scripts/setup.php HTTP/1.1" 404 3584
+Not Found: /admindb/scripts/setup.php
+[24/Feb/2018 23:53:42] "GET /admindb/scripts/setup.php HTTP/1.1" 404 3590
+Not Found: /admin/phpmyadmin/scripts/setup.php
+[24/Feb/2018 23:53:44] "GET /admin/phpmyadmin/scripts/setup.php HTTP/1.1" 404 5349
+Not Found: /admin/phpMyAdmin/scripts/setup.php
+[24/Feb/2018 23:53:44] "GET /admin/phpMyAdmin/scripts/setup.php HTTP/1.1" 404 5349
+Not Found: /admin/scripts/setup.php
+[24/Feb/2018 23:53:45] "GET /admin/scripts/setup.php HTTP/1.1" 404 5316
+Not Found: /apache-default/phpmyadmin/scripts/setup.php
+[24/Feb/2018 23:53:45] "GET /apache-default/phpmyadmin/scripts/setup.php HTTP/1.1" 404 3644
+Not Found: /cpanelphpmyadmin/scripts/setup.php
+[24/Feb/2018 23:53:46] "GET /cpanelphpmyadmin/scripts/setup.php HTTP/1.1" 404 3617
+Not Found: /cpphpmyadmin/scripts/setup.php
+[24/Feb/2018 23:53:48] "GET /cpphpmyadmin/scripts/setup.php HTTP/1.1" 404 3605
+Not Found: /db/scripts/setup.php
+[24/Feb/2018 23:53:51] "GET /db/scripts/setup.php HTTP/1.1" 404 3575
+Not Found: /forum/phpmyadmin/scripts/setup.php
+[24/Feb/2018 23:53:52] "GET /forum/phpmyadmin/scripts/setup.php HTTP/1.1" 404 3617
+Not Found: /mysqladmin/scripts/setup.php
+[24/Feb/2018 23:53:52] "GET /mysqladmin/scripts/setup.php HTTP/1.1" 404 3599
+Not Found: /phpmyadmin2/scripts/setup.php
+[24/Feb/2018 23:53:53] "GET /phpmyadmin2/scripts/setup.php HTTP/1.1" 404 3602
+Not Found: /phpMyAdmin2/scripts/setup.php
+[24/Feb/2018 23:53:53] "GET /phpMyAdmin2/scripts/setup.php HTTP/1.1" 404 3602
+Not Found: /phpmyadmin/scripts/setup0.php
+[24/Feb/2018 23:53:54] "GET /phpmyadmin/scripts/setup0.php HTTP/1.1" 404 3602
+Not Found: /phpMyAdmin/scripts/setup0.php
+[24/Feb/2018 23:53:55] "GET /phpMyAdmin/scripts/setup0.php HTTP/1.1" 404 3602
+Not Found: /phpmyadmin/scripts/setup1.php
+[24/Feb/2018 23:53:55] "GET /phpmyadmin/scripts/setup1.php HTTP/1.1" 404 3602
+Not Found: /phpMyAdmin/scripts/setup1.php
+[24/Feb/2018 23:53:57] "GET /phpMyAdmin/scripts/setup1.php HTTP/1.1" 404 3602
+Not Found: /php-my-admin/scripts/setup.php
+[24/Feb/2018 23:53:58] "GET /php-my-admin/scripts/setup.php HTTP/1.1" 404 3605
+Not Found: /phpmyadmin/scripts/_setup.php
+[24/Feb/2018 23:54:01] "GET /phpmyadmin/scripts/_setup.php HTTP/1.1" 404 3602
+Not Found: /phpmyadmin/scripts/Setup.php
+[24/Feb/2018 23:54:02] "GET /phpmyadmin/scripts/Setup.php HTTP/1.1" 404 3599
+Not Found: /phpMyAdmin/scripts/_setup.php
+[24/Feb/2018 23:54:07] "GET /phpMyAdmin/scripts/_setup.php HTTP/1.1" 404 3602
+Not Found: /phpMyAdmin/scripts/Setup.php
+[24/Feb/2018 23:54:07] "GET /phpMyAdmin/scripts/Setup.php HTTP/1.1" 404 3599
+Not Found: /scripts/setup.php
+[24/Feb/2018 23:54:13] "GET /scripts/setup.php HTTP/1.1" 404 3566
+Not Found: /xampp/phpmyadmin/scripts/setup.php
+[24/Feb/2018 23:54:17] "GET /xampp/phpmyadmin/scripts/setup.php HTTP/1.1" 404 3617
+[25/Feb/2018 02:00:58] "GET / HTTP/1.1" 200 6772
+Not Found: /login.action
+[25/Feb/2018 02:00:58] "GET /login.action HTTP/1.1" 404 3551
+Not Found: /index.action
+[25/Feb/2018 02:00:58] "GET /index.action HTTP/1.1" 404 3551
+Not Found: /index.htm
+[25/Feb/2018 02:00:59] "GET /index.htm HTTP/1.1" 404 3542
+Not Found: /index.html
+[25/Feb/2018 02:00:59] "GET /index.html HTTP/1.1" 404 3545
+Not Found: /index.jsp
+[25/Feb/2018 02:01:00] "GET /index.jsp HTTP/1.1" 404 3542
+Invalid HTTP_HOST header: 'ip-172-31-10-126.us-west-1.compute.internal'. You may need to add 'ip-172-31-10-126.us-west-1.compute.internal' to ALLOWED_HOSTS.
+[25/Feb/2018 03:30:14] "GET /x HTTP/1.1" 400 58260
+Not Found: /ccvv
+[25/Feb/2018 15:49:21] "GET /ccvv HTTP/1.1" 404 3527
+Invalid HTTP_HOST header: 'ip-172-31-10-126.us-west-1.compute.internal'. You may need to add 'ip-172-31-10-126.us-west-1.compute.internal' to ALLOWED_HOSTS.
+[25/Feb/2018 17:17:48] "GET /server.js HTTP/1.1" 400 58338
+[25/Feb/2018 17:33:29] "GET /index HTTP/1.1" 200 6772
+Not Found: /public/images/ConnorAguilera.jpg
+[25/Feb/2018 17:33:29] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[25/Feb/2018 17:33:29] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /templates/public/images/AndrewWong.jpg
+[25/Feb/2018 17:33:29] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/CSC648Banner-01.png
+[25/Feb/2018 17:33:29] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /CSS/main.css
+[25/Feb/2018 17:33:29] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/EmilioQuiambao.jpeg
+[25/Feb/2018 17:33:29] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/PrestonSegura.jpg
+[25/Feb/2018 17:33:29] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+Not Found: /public/images/PeitongShi.jpg
+[25/Feb/2018 17:33:29] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[25/Feb/2018 17:33:30] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+[25/Feb/2018 17:42:00] "GET / HTTP/1.1" 200 6772
+Invalid HTTP_HOST header: 'ip-172-31-10-126.us-west-1.compute.internal'. You may need to add 'ip-172-31-10-126.us-west-1.compute.internal' to ALLOWED_HOSTS.
+[25/Feb/2018 18:17:44] "GET / HTTP/1.0" 400 58236
+Traceback (most recent call last):
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib64/python3.5/socket.py", line 594, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+[25/Feb/2018 18:17:44] "GET / HTTP/1.0" 500 59
+Traceback (most recent call last):
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 138, in run
+    self.finish_response()
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 279, in write
+    self._write(data)
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 463, in _write
+    result = self.stdout.write(data)
+  File "/usr/lib64/python3.5/socket.py", line 594, in write
+    return self._sock.send(b)
+ConnectionResetError: [Errno 104] Connection reset by peer
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 141, in run
+    self.handle_error()
+  File "/usr/local/lib64/python3.5/site-packages/django/core/servers/basehttp.py", line 86, in handle_error
+    super().handle_error()
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 368, in handle_error
+    self.finish_response()
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 180, in finish_response
+    self.write(data)
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 274, in write
+    self.send_headers()
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 331, in send_headers
+    if not self.origin_server or self.client_is_modern():
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 344, in client_is_modern
+    return self.environ['SERVER_PROTOCOL'].upper() != 'HTTP/0.9'
+TypeError: 'NoneType' object is not subscriptable
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/usr/lib64/python3.5/socketserver.py", line 625, in process_request_thread
+    self.finish_request(request, client_address)
+  File "/usr/lib64/python3.5/socketserver.py", line 354, in finish_request
+    self.RequestHandlerClass(request, client_address, self)
+  File "/usr/lib64/python3.5/socketserver.py", line 681, in __init__
+    self.handle()
+  File "/usr/local/lib64/python3.5/site-packages/django/core/servers/basehttp.py", line 154, in handle
+    handler.run(self.server.get_app())
+  File "/usr/lib64/python3.5/wsgiref/handlers.py", line 144, in run
+    self.close()
+  File "/usr/lib64/python3.5/wsgiref/simple_server.py", line 36, in close
+    self.status.split(' ',1)[0], self.bytes_sent
+AttributeError: 'NoneType' object has no attribute 'split'
+[25/Feb/2018 18:35:08] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[25/Feb/2018 18:35:08] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[25/Feb/2018 18:35:08] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /public/images/ConnorAguilera.jpg
+[25/Feb/2018 18:35:08] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /templates/public/images/AndrewWong.jpg
+[25/Feb/2018 18:35:08] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/MarceloC.jpg
+[25/Feb/2018 18:35:08] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/EmilioQuiambao.jpeg
+[25/Feb/2018 18:35:08] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/PeitongShi.jpg
+[25/Feb/2018 18:35:08] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+Not Found: /public/images/SahasArora.png
+[25/Feb/2018 18:35:08] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[25/Feb/2018 18:35:08] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+[25/Feb/2018 20:15:22] "GET / HTTP/1.1" 200 6772
+[25/Feb/2018 23:26:20] "GET / HTTP/1.1" 200 6772
+[26/Feb/2018 01:47:06] "GET /index HTTP/1.1" 200 6772
+Not Found: /CSS/main.css
+[26/Feb/2018 01:47:06] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[26/Feb/2018 01:47:06] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /public/images/ConnorAguilera.jpg
+[26/Feb/2018 01:47:06] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /public/images/MarceloC.jpg
+[26/Feb/2018 01:47:06] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /templates/public/images/AndrewWong.jpg
+[26/Feb/2018 01:47:06] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /public/images/EmilioQuiambao.jpeg
+[26/Feb/2018 01:47:06] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/SahasArora.png
+[26/Feb/2018 01:47:06] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[26/Feb/2018 01:47:06] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+Not Found: /public/images/PeitongShi.jpg
+[26/Feb/2018 01:47:06] "GET /public/images/PeitongShi.jpg HTTP/1.1" 404 3599
+[26/Feb/2018 01:47:09] "GET /AboutConnor HTTP/1.1" 200 2687
+Not Found: /public/images/ConnorAguilera.jpg
+[26/Feb/2018 01:47:09] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+[26/Feb/2018 01:55:14] "GET /index HTTP/1.1" 200 6795
+Not Found: /CSS/main.css
+[26/Feb/2018 01:55:15] "GET /CSS/main.css HTTP/1.1" 404 3551
+Not Found: /public/images/CSC648Banner-01.png
+[26/Feb/2018 01:55:15] "GET /public/images/CSC648Banner-01.png HTTP/1.1" 404 3614
+Not Found: /public/images/MarceloC.jpg
+[26/Feb/2018 01:55:15] "GET /public/images/MarceloC.jpg HTTP/1.1" 404 3593
+Not Found: /public/images/ConnorAguilera.jpg
+[26/Feb/2018 01:55:15] "GET /public/images/ConnorAguilera.jpg HTTP/1.1" 404 3611
+Not Found: /templates/public/images/AndrewWong.jpg
+[26/Feb/2018 01:55:15] "GET /templates/public/images/AndrewWong.jpg HTTP/1.1" 404 3629
+Not Found: /mysite/myapp/templates/public/images/PeitongShi.jpg
+[26/Feb/2018 01:55:17] "GET /mysite/myapp/templates/public/images/PeitongShi.jpg HTTP/1.1" 404 3668
+Not Found: /public/images/EmilioQuiambao.jpeg
+[26/Feb/2018 01:55:17] "GET /public/images/EmilioQuiambao.jpeg HTTP/1.1" 404 3614
+Not Found: /public/images/SahasArora.png
+[26/Feb/2018 01:55:17] "GET /public/images/SahasArora.png HTTP/1.1" 404 3599
+Not Found: /public/images/PrestonSegura.jpg
+[26/Feb/2018 01:55:18] "GET /public/images/PrestonSegura.jpg HTTP/1.1" 404 3608
+Not Found: /CSS/main.css
+[26/Feb/2018 01:55:28] "GET /CSS/main.css HTTP/1.1" 404 3551
